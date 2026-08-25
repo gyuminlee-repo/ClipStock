@@ -17,3 +17,8 @@ build/
 .env
 .env.*
 secrets.*
+
+# Claude Code 세션 런타임 (머신/세션별 상태, 커밋 대상 아님)
+.claude/state/
+.codex-review-passed
+notes/handoffs/
